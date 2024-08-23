@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> html 5 form attributes </title>
+</head>
+<body>
+    
+<h2 align="center"> Enquiry form</h2>
+<form  >
+    <fieldset>
+        <legend> Addmisition</legend> 
+
+        Name : <input type=" text" name="name" value ="" required="must be filled"
+         placeholder="plz enter yr name here...." autofocus=""/>
+         <br/>
+         <br/> 
+         nike name:
+         <input type="text" name="nn"  value=" can not be edit ,only read"  readonly=""/>
+         <br/>
+         <br/> 
+         nike name:
+         <input type="text" name="nnn"  value=" only read"  disabled="" />
+       <br/>
+       <br/> 
+       color:
+       <input type="color" name="c"  value=" #FF0000" />
+       <br/>
+       <br/> 
+       address : <textarea  required=""></textarea>
+       <br/>
+       <br/>
+       age:
+       <input type="number" name="age" min="18" max="40"/>
+      <br/>
+      <br/>
+       Gender :
+       <input type="radio"  volum="M"   name="gender"  checked =" from this always checkedbut changable"/> Male
+       <input type="radio"  volum="f"  name="gender"/> female
+       <input type="radio"  volum="N"   name="gender"/> none
+       <br/>
+       <br/>
+
+     country:
+     <select>
+         
+         <option  value="choose "> select the optoin </option>
+
+         <optgroup  label="india">
+
+         <option value="bihar">bihar </option>
+         <option value="chhatishghad">chhatishghad </option>
+        <option value="panjab"> panjab</option>
+        <option value="jharkhand"> jharkhand</option>
+        <option value="up">up </option>
+         <option value="MP">Mp </option>
+
+        </optgroup>
+
+        <option  value=""> </option>
+        <option  value="india"> india</option>
+        <option  value="euraop"> eaurop</option>
+        <option value="america"> america</option>
+        <option value="chaina "> chaina </option>
+        <option value=" nepal">  nepal</option>
+     </select>
+
+     <br/>
+     <br/>
+     Hobbies:
+     <input type="checkbox" name="hobbies[]" >Dancing
+     <input type="checkbox" name="hobbies[]" >singing
+     <input type="checkbox" name="hobbies[]" >playing
+     <br/>
+     <br/>
+     image:
+     <input type="file"  name="image"/>
+     <br/>
+     <br/>
+     Range:
+     <input type="range" name="r" min="30" max="100" />
+     <br/>
+     <br/>
+       <input type ="submit" value="submit"/>
+       <input type ="reset" value="reset" />
+     <br/>
+     <br/>
+    </fieldset> 
+</form>   
+
+</body>
+</html>
